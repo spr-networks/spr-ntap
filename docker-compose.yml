@@ -15,4 +15,4 @@ services:
       - NET_ADMIN
     network_mode: host
     volumes:
-      - ./configs/plugins/nzyme/nzyme-tap.conf:/etc/nzyme/nzyme-tap.conf
+      - "$SUPERDIR/configs/plugins/nzyme/nzyme-tap.conf:/etc/nzyme/nzyme-tap.conf"
