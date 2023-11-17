@@ -15,3 +15,4 @@ cd spr-mitmproxy
 docker-compose build
 ```
 
+Then add on the plugins page and enable. 
