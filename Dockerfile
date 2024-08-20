@@ -1,6 +1,6 @@
 FROM rust:1.73 as builder
 RUN apt-get update && apt-get install -y libpcap-dev
-RUN git clone --depth 1 -b spr-tap https://github.com/lts-rad/nzyme.git
+RUN git clone --depth 1 https://github.com/nzymedefense/nzyme
 WORKDIR nzyme/tap
 RUN cargo build --release
 
