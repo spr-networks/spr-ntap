@@ -1,0 +1,11 @@
+{
+  "Name": "nzyme",
+  "ComposeFilePath": "plugins/user/spr-nzyme-tap/docker-compose.yml",
+  "UnixPath": "",
+  "URI": "",
+  "HasUI": false,
+  "SandboxedUI": false,
+  "InstallTokenPath": "",
+  "ScopedPaths": [],
+  "Enabled": true
+}
